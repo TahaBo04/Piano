@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Piano Prototype</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Orientation overlay -->
+  <div id="rotate-overlay">
+    <div class="overlay-content">
+      <h1>Rotate your phone</h1>
+      <p>Please use landscape for the piano.</p>
+    </div>
+  </div>
+
+  <div id="app">
+    <!-- Camera preview -->
+    <video id="camera" autoplay playsinline></video>
+
+    <!-- Keyboard canvas -->
+    <canvas id="keyboard-canvas"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
